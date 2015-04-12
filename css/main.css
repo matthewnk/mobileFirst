@@ -1,0 +1,58 @@
+body {
+  color: #878787;
+  margin: 0;
+}
+
+h1 {  
+  font-size: 90px;
+  color: orange;
+  padding: 0;
+
+}
+
+h2 {
+  font-size: 53px;
+  color: LightSlatGrey;
+  padding: 5;
+
+}
+
+h3 {
+	color: LimeGreen;
+	padding: 5;
+
+}
+
+/* Class Selectors */
+
+.container {}
+
+.logo{}
+
+.container {
+  text-align: left;
+}
+
+.mainNav ul {
+  list-style-type: none;
+  padding: 5;
+}
+
+.articleFooter {
+	color: PowderBlue;
+}
+
+
+/* Pseudo-class Selectors */
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: forestgreen;
+}

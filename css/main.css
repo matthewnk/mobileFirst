@@ -1,5 +1,14 @@
+/* Colors used
+gray #808080
+LimeGreen
+orange
+PowderBlue
+LightSlateGrey
+
+*/
+
 body {
-  color: #878787;
+  color: #808080;
   margin: 0;
 }
 
@@ -12,7 +21,7 @@ h1 {
 
 h2 {
   font-size: 53px;
-  color: LightSlatGrey;
+  color: LightSlateGrey;
   padding: 5;
 
 }
@@ -56,3 +65,74 @@ a:visited {
 a:hover {
   color: forestgreen;
 }
+
+/* Media Query for Feature Phones */
+
+@media
+
+/* Media Query for Mobile */
+
+/*@media only screen
+	and (min-width: 320px)
+	and (max-width: 480px)*/
+
+	body {
+		overflow-x: hidden;
+
+	}
+	.mobileHeader {
+		position: fixed;
+		width: 100%;
+		z-index: 1;
+		background-color: LightSlateGray;
+		height: 8%;
+
+	}
+
+	.mobileFooter {
+		position: fixed;
+		width: 100%;
+		left: 0px;
+		bottom: 0px;
+		z-index: 2;
+		background-color: LightSlateGray;
+		height: 8%;
+	}
+
+	#hamburger {
+    	border: 1px solid #374C77;
+    	border-radius: 3px 3px 3px 3px;
+    	cursor: pointer;
+    	display: block;
+    	z-index: 1;
+    	height: 30px;
+    	padding: 3px 4px 3px;
+    	position: relative;
+    	width: 30px;
+    	background: #4569b2;
+    	
+	}
+
+	/* The white stripes in the hamburger button */
+	#hamburger div {
+	    background-color: #fff;
+	    border: 1px solid #eee;
+	    border-radius: 2px 2px 2px 2px;
+	    height: 2px;
+	    margin-top: 3px;
+	    width: 90%;
+	}
+
+	
+
+/* Media Query for Tablet */
+
+@media only screen
+	and (min-width: 768px)
+	and (max-width: 1024px)
+
+
+
+
+
+

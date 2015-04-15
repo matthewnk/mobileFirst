@@ -232,11 +232,25 @@ h1 {
 
 }
 
+#content {
+	max-width: 75%;
+	margin-top: -330px;
+}
+
 #content img {
 	float: right;
 	width: 125px;
 	height: 125px;
 
+}
+
+/*.headSpace {
+	display: none;
+}*/
+
+.notMobileHeader {
+	display: block;
+	z-index: 3;
 }
 
 .notMobileHeader img {
@@ -257,11 +271,13 @@ h1 {
 .normalNav {
 	display: block;
 	float: left;
+	max-width: 25%;
 }
 
 article {
 	position: relative;
-	left: 200px;
+	margin-left: 35%;
+
 }
 
 #mobileFooter {

@@ -197,7 +197,7 @@ a:hover {
 	*/}
 
 	nav li a {
-	    color: #fff;
+	    color: orange;
 	    text-decoration: none;
 	}
 
@@ -232,9 +232,20 @@ h1 {
 
 }
 
+h1 img {
+	float: left;
+	position: relative;
+	top: 1px;
+	left: 1px;
+	margin-left: 8px;
+	margin-top: 10px;
+	height: 200px;
+	width: 200px;
+}
+
 #content {
 	max-width: 75%;
-	margin-top: -330px;
+	margin-top: 600px;
 }
 
 #content img {
@@ -244,16 +255,12 @@ h1 {
 
 }
 
-/*.headSpace {
-	display: none;
-}*/
-
 .notMobileHeader {
 	display: block;
 	z-index: 3;
 }
 
-.notMobileHeader img {
+.tabletLogo {
 	position: relative;
 	top: -150px;
 	left: -375px;
@@ -262,6 +269,17 @@ h1 {
 	height: 200px;
 	width: 200px;
 }
+
+
+/*.notMobileHeader img {
+	position: relative;
+	top: -150px;
+	left: -375px;
+	margin-left: 8px;
+	margin-top: 10px;
+	height: 200px;
+	width: 200px;
+}*/
 
 .mobileHeader {
 	display: none;
@@ -275,8 +293,8 @@ h1 {
 }
 
 article {
-	position: relative;
-	margin-left: 35%;
+/*	position: relative;
+*/	margin-left: 35%;
 
 }
 

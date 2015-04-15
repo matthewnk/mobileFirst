@@ -28,13 +28,13 @@ jQuery(document).ready(function () {
         //set margin for the whole container back to original state
         jQuery("#container").animate({"marginLeft": ["-1", 'easeOutExpo']}, {
             duration: 100,
-            // complete: function () {
-            //     jQuery('#content').css('width', 'auto');
-            //     // jQuery('#contentLayer').css('display', 'none');
-            //     // jQuery('nav').css('opacity', 0);
-            //     jQuery('#content').css('min-height', 'auto');
+            complete: function () {
+                jQuery('#content').css('width', 'auto');
+                jQuery('#contentLayer').css('display', 'none');
+                jQuery('nav').css('opacity', 0);
+                jQuery('#content').css('min-height', 'auto');
 
-            // }
+            }
         });
     });
 

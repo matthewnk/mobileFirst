@@ -25,13 +25,6 @@ header {
   z-index: 1;
 }
 
-#content {
-    background-color: White;
-    padding: 52px 10px 10px 10px;
-    position: relative;
-    width: auto;
-    height: 100%;   
-}
 
 h1 {  
 	font-family: 'Comfortaa', cursive;
@@ -43,6 +36,14 @@ h1 {
   z-index: 0;
   text-align: center;
 
+}
+
+#content {
+    background-color: White;
+    padding: 52px 10px 10px 10px;
+    position: relative;
+    width: auto;
+    height: 100%;   
 }
 
 h2 {
@@ -72,10 +73,7 @@ h3 {
   text-align: left;
 }
 
-.mainNav ul {
-  list-style-type: none;
-  padding: 5;
-}
+
 
 .articleFooter {
 	color: PowderBlue;
@@ -232,9 +230,14 @@ h1 {
 
 }
 
+#contentLayer {
+	display: none;
+}
+
 #content {
 	max-width: 75%;
 	margin-top: -330px;
+
 }
 
 #content img {
@@ -268,10 +271,15 @@ h1 {
 
 }
 
-.normalNav {
-	display: block;
+div .normalNav {
+	background-color: red;
+/*	z-index: 7;*/
+}
+
+.normalNav ul {
+	/*display: block;*/
 	float: left;
-	max-width: 25%;
+	max-width: 30%;
 }
 
 article {
@@ -280,8 +288,9 @@ article {
 
 }
 
-#mobileFooter {
+.mobileFooter {
 	display: none;
+
 }
 
 #hamburger {

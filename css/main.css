@@ -25,13 +25,6 @@ header {
   z-index: 1;
 }
 
-#content {
-    background-color: White;
-    padding: 52px 10px 10px 10px;
-    position: relative;
-    width: auto;
-    height: 100%;   
-}
 
 h1 {  
 	font-family: 'Comfortaa', cursive;
@@ -43,6 +36,14 @@ h1 {
   z-index: 0;
   text-align: center;
 
+}
+
+#content {
+    background-color: White;
+    padding: 52px 10px 10px 10px;
+    position: relative;
+    width: auto;
+    height: 100%;   
 }
 
 h2 {
@@ -72,10 +73,7 @@ h3 {
   text-align: left;
 }
 
-.mainNav ul {
-  list-style-type: none;
-  padding: 5;
-}
+
 
 .articleFooter {
 	color: PowderBlue;
@@ -232,6 +230,7 @@ h1 {
 
 }
 
+<<<<<<< HEAD
 h1 img {
 	float: left;
 	position: relative;
@@ -241,11 +240,20 @@ h1 img {
 	margin-top: 10px;
 	height: 200px;
 	width: 200px;
+=======
+#contentLayer {
+	display: none;
+>>>>>>> 9f69731401bf646e80b3c8b31a89a458ce1109f3
 }
 
 #content {
 	max-width: 75%;
+<<<<<<< HEAD
 	margin-top: 600px;
+=======
+	margin-top: -330px;
+
+>>>>>>> 9f69731401bf646e80b3c8b31a89a458ce1109f3
 }
 
 #content img {
@@ -286,10 +294,15 @@ h1 img {
 
 }
 
-.normalNav {
-	display: block;
+div .normalNav {
+	background-color: red;
+/*	z-index: 7;*/
+}
+
+.normalNav ul {
+	/*display: block;*/
 	float: left;
-	max-width: 25%;
+	max-width: 30%;
 }
 
 article {
@@ -298,8 +311,9 @@ article {
 
 }
 
-#mobileFooter {
+.mobileFooter {
 	display: none;
+
 }
 
 #hamburger {

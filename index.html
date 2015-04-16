@@ -18,115 +18,124 @@
 
 <body>
 
-<!--This wrapping container is used to get the width of the whole content-->
-<div id="container">
+  <!--This wrapping container is used to get the width of the whole content-->
+  <div id="container">
 
     <!--The Hamburger Button in the Header-->
     <header class="mobileHeader">
-      <div class="mobileLogo">
-        <img src="img/logo.svg" alt="bearLogo">
-      </div>
-      <h1>Page Title</h1>
+        <div class="mobileLogo">
+          <img src="img/logo.svg" alt="bearLogo">
+        </div>
+        <h1>Page Title</h1>
     </header>
 
     <div class="notMobileHeader">
+<<<<<<< HEAD
       <h1><img src="img/logo.svg" alt="bearLogo">
         Page Title</h1>
+=======
+        <h1>Page Title</h1>
+        <div class="logo">
+          <img src="img/logo.svg" alt="bearLogo">
+        </div>
+>>>>>>> 9f69731401bf646e80b3c8b31a89a458ce1109f3
     </div>
-    
+      
     <div class="normalNav">
-        <ul>
-          <li><a href="#article1">article one</a></li>
-          <li><a href="#article2">article two</a></li>
-          <li><a href="#article3">article three</a></li>
-          <li><a href="#article4">article four</a></li>
-          <li><a href="#article5">article five</a></li>
-          <li><a href="#article6">article six</a></li>
-          <li><a href="#article7">article seven</a></li>
-          <li><a href="#article8">article eight</a></li>
-          <li><a href="#article9">article nine</a></li>
-          <li><a href="#article10">article ten</a></li>
-          <li><a href="#article11">article eleven</a></li>
-          <li><a href="#article12">article twelve</a></li>
-          <li><a href="#article13">article thirteen</a></li>
-          <li><a href="#article14">article fourteen</a></li>
-          <li><a href="#article15">article fifteen</a></li>
-          <li><a href="#article16">article sixteen</a></li>
-          <li><a href="#article17">article seventeen</a></li>
-          <li><a href="#article18">article eighteen</a></li>
-          <li><a href="#article19">article nineteen</a></li>
-          <li><a href="#article20">article twenty</a></li>
-        </ul>      
+          <ul>
+            <li><a href="#article1">article one</a></li>
+            <li><a href="#article2">article two</a></li>
+            <li><a href="#article3">article three</a></li>
+            <li><a href="#article4">article four</a></li>
+            <li><a href="#article5">article five</a></li>
+            <li><a href="#article6">article six</a></li>
+            <li><a href="#article7">article seven</a></li>
+            <li><a href="#article8">article eight</a></li>
+            <li><a href="#article9">article nine</a></li>
+            <li><a href="#article10">article ten</a></li>
+            <li><a href="#article11">article eleven</a></li>
+            <li><a href="#article12">article twelve</a></li>
+            <li><a href="#article13">article thirteen</a></li>
+            <li><a href="#article14">article fourteen</a></li>
+            <li><a href="#article15">article fifteen</a></li>
+            <li><a href="#article16">article sixteen</a></li>
+            <li><a href="#article17">article seventeen</a></li>
+            <li><a href="#article18">article eighteen</a></li>
+            <li><a href="#article19">article nineteen</a></li>
+            <li><a href="#article20">article twenty</a></li>
+          </ul>      
     </div>
 
     <!--navigation hidden with in css-->
     <nav>
-        <ul>
-          <li><a href="#article1">article one</a></li>
-          <li><a href="#article2">article two</a></li>
-          <li><a href="#article3">article three</a></li>
-          <li><a href="#article4">article four</a></li>
-          <li><a href="#article5">article five</a></li>
-          <li><a href="#article6">article six</a></li>
-          <li><a href="#article7">article seven</a></li>
-          <li><a href="#article8">article eight</a></li>
-          <li><a href="#article9">article nine</a></li>
-          <li><a href="#article10">article ten</a></li>
-          <li><a href="#article11">article eleven</a></li>
-          <li><a href="#article12">article twelve</a></li>
-          <li><a href="#article13">article thirteen</a></li>
-          <li><a href="#article14">article fourteen</a></li>
-          <li><a href="#article15">article fifteen</a></li>
-          <li><a href="#article16">article sixteen</a></li>
-          <li><a href="#article17">article seventeen</a></li>
-          <li><a href="#article18">article eighteen</a></li>
-          <li><a href="#article19">article nineteen</a></li>
-          <li><a href="#article20">article twenty</a></li>
-        </ul>      
+          <ul>
+            <li><a href="#article1">article one</a></li>
+            <li><a href="#article2">article two</a></li>
+            <li><a href="#article3">article three</a></li>
+            <li><a href="#article4">article four</a></li>
+            <li><a href="#article5">article five</a></li>
+            <li><a href="#article6">article six</a></li>
+            <li><a href="#article7">article seven</a></li>
+            <li><a href="#article8">article eight</a></li>
+            <li><a href="#article9">article nine</a></li>
+            <li><a href="#article10">article ten</a></li>
+            <li><a href="#article11">article eleven</a></li>
+            <li><a href="#article12">article twelve</a></li>
+            <li><a href="#article13">article thirteen</a></li>
+            <li><a href="#article14">article fourteen</a></li>
+            <li><a href="#article15">article fifteen</a></li>
+            <li><a href="#article16">article sixteen</a></li>
+            <li><a href="#article17">article seventeen</a></li>
+            <li><a href="#article18">article eighteen</a></li>
+            <li><a href="#article19">article nineteen</a></li>
+            <li><a href="#article20">article twenty</a></li>
+          </ul>      
     </nav>
 
+    <!--The Layer that will be layed over the content
+    so that the content is unclickable while menu is shown-->
+    <div id="contentLayer"></div>
+
+      <!--Articles start here-->
+      <div id="content">
+        <!--to push content down below fixed header-->
+        <div class="headSpace"></div>
+
+        <article><a id="article1"></a>
+            <h2>Article One</h2>
+            <h3>The First Article...</h3>
+            <img src="http://placehold.it/100/7FFFD4">
+          
+            <p>Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Balihoo cuil hipmunk elgg tumblr empressr disqus plugg heekya qeyno xobni jajah lijit meebo, oooooc plugg zooomr odeo oovoo loopt dropio mog empressr stypi kazaa kippt babblely. Blippy weebly zillow xobni greplin kno qeyno blippy orkut, kiko edmodo zlio quora kaboodle chumby imvu joost twitter, zanga kiko oovoo woopra mog woopra palantir.<br></p>
+          <footer class="articleFooter"><b>Article footer</b></footer>
+        </article>  
+
+        <article><a id="article2"></a>
+            <h2>Article Two</h2>
+            <h3>The second article...</h3>
+            <img src="http://placehold.it/100/7FFFD4">
+            <p>Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Balihoo cuil hipmunk elgg tumblr empressr disqus plugg heekya qeyno xobni jajah lijit meebo, oooooc plugg zooomr odeo oovoo loopt dropio mog empressr stypi kazaa kippt babblely. Blippy weebly zillow xobni greplin kno qeyno blippy orkut, kiko edmodo zlio quora kaboodle chumby imvu joost twitter, zanga kiko oovoo woopra mog woopra palantir.<br></p>
+          <footer class="articleFooter"><b>Article footer</b></footer>
+        </article>  
+
+        <article><a id="article3"></a>
+            <h2>Article Three</h2>
+            <h3>The third article...</h3>
+            <img src="http://placehold.it/100/7FFFD4">
+            <p>Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Balihoo cuil hipmunk elgg tumblr empressr disqus plugg heekya qeyno xobni jajah lijit meebo, oooooc plugg zooomr odeo oovoo loopt dropio mog empressr stypi kazaa kippt babblely. Blippy weebly zillow xobni greplin kno qeyno blippy orkut, kiko edmodo zlio quora kaboodle chumby imvu joost twitter, zanga kiko oovoo woopra mog woopra palantir.<br></p>
+          <footer class="articleFooter"><b>Article footer</b></footer>
+        </article>  
+
+        </div>  
+      </div>
 
 
-  <!--The Layer that will be layed over the content
-  so that the content is unclickable while menu is shown-->
-  <div id="contentLayer"></div>
-
-    <!--Articles start here-->
-    <div id="content">
-      <!--to push content down below fixed header-->
-      <div class="headSpace"></div>
-      <article><a id="article1"></a>
-          <h2>Article One</h2>
-          <h3>The First Article...</h3>
-          <img src="http://placehold.it/100/7FFFD4">
-        
-          <p>Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Balihoo cuil hipmunk elgg tumblr empressr disqus plugg heekya qeyno xobni jajah lijit meebo, oooooc plugg zooomr odeo oovoo loopt dropio mog empressr stypi kazaa kippt babblely. Blippy weebly zillow xobni greplin kno qeyno blippy orkut, kiko edmodo zlio quora kaboodle chumby imvu joost twitter, zanga kiko oovoo woopra mog woopra palantir.<br></p>
-        <footer class="articleFooter"><b>Article footer</b></footer>
-      </article>  
-      <article><a id="article2"></a>
-          <h2>Article Two</h2>
-          <h3>The second article...</h3>
-          <img src="http://placehold.it/100/7FFFD4">
-          <p>Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Balihoo cuil hipmunk elgg tumblr empressr disqus plugg heekya qeyno xobni jajah lijit meebo, oooooc plugg zooomr odeo oovoo loopt dropio mog empressr stypi kazaa kippt babblely. Blippy weebly zillow xobni greplin kno qeyno blippy orkut, kiko edmodo zlio quora kaboodle chumby imvu joost twitter, zanga kiko oovoo woopra mog woopra palantir.<br></p>
-        <footer class="articleFooter"><b>Article footer</b></footer>
-      </article>  
-      <article><a id="article3"></a>
-          <h2>Article Three</h2>
-          <h3>The third article...</h3>
-          <img src="http://placehold.it/100/7FFFD4">
-        <p>Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Balihoo cuil hipmunk elgg tumblr empressr disqus plugg heekya qeyno xobni jajah lijit meebo, oooooc plugg zooomr odeo oovoo loopt dropio mog empressr stypi kazaa kippt babblely. Blippy weebly zillow xobni greplin kno qeyno blippy orkut, kiko edmodo zlio quora kaboodle chumby imvu joost twitter, zanga kiko oovoo woopra mog woopra palantir.<br></p>
-        <footer class="articleFooter"><b>Article footer</b></footer>
-      </article>  
-    </div>  
-  </div>
-
-
-  <footer class="mobileFooter">
-    <div id="hamburger">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-  </footer> 
+    <footer class="mobileFooter">
+      <div id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </footer> 
 </body>
 </html>

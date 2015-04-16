@@ -195,7 +195,7 @@ a:hover {
 	*/}
 
 	nav li a {
-	    color: #fff;
+	    color: orange;
 	    text-decoration: none;
 	}
 
@@ -230,14 +230,30 @@ h1 {
 
 }
 
+<<<<<<< HEAD
+h1 img {
+	float: left;
+	position: relative;
+	top: 1px;
+	left: 1px;
+	margin-left: 8px;
+	margin-top: 10px;
+	height: 200px;
+	width: 200px;
+=======
 #contentLayer {
 	display: none;
+>>>>>>> 9f69731401bf646e80b3c8b31a89a458ce1109f3
 }
 
 #content {
 	max-width: 75%;
+<<<<<<< HEAD
+	margin-top: 600px;
+=======
 	margin-top: -330px;
 
+>>>>>>> 9f69731401bf646e80b3c8b31a89a458ce1109f3
 }
 
 #content img {
@@ -247,16 +263,12 @@ h1 {
 
 }
 
-/*.headSpace {
-	display: none;
-}*/
-
 .notMobileHeader {
 	display: block;
 	z-index: 3;
 }
 
-.notMobileHeader img {
+.tabletLogo {
 	position: relative;
 	top: -150px;
 	left: -375px;
@@ -265,6 +277,17 @@ h1 {
 	height: 200px;
 	width: 200px;
 }
+
+
+/*.notMobileHeader img {
+	position: relative;
+	top: -150px;
+	left: -375px;
+	margin-left: 8px;
+	margin-top: 10px;
+	height: 200px;
+	width: 200px;
+}*/
 
 .mobileHeader {
 	display: none;
@@ -283,8 +306,8 @@ div .normalNav {
 }
 
 article {
-	position: relative;
-	margin-left: 35%;
+/*	position: relative;
+*/	margin-left: 35%;
 
 }
 

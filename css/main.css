@@ -38,12 +38,12 @@ h1 {
 
 }
 
-/*#content {
+#content {
     background-color: White;
     padding: 52px 10px 10px 10px;
     position: relative;
     width: auto;
-    height: 100%;*/   
+    height: 100%;   
 }
 
 h2 {
@@ -230,7 +230,7 @@ h1 {
 
 }
 
-<<<<<<< HEAD
+
 h1 img {
 	float: left;
 	position: relative;
@@ -240,20 +240,14 @@ h1 img {
 	margin-top: 10px;
 	height: 200px;
 	width: 200px;
-=======
-#contentLayer {
 	display: none;
->>>>>>> 9f69731401bf646e80b3c8b31a89a458ce1109f3
+
 }
 
 #content {
 	max-width: 75%;
-<<<<<<< HEAD
-	margin-top: 600px;
-=======
-	margin-top: -330px;
+	margin-top: 300px;
 
->>>>>>> 9f69731401bf646e80b3c8b31a89a458ce1109f3
 }
 
 #content img {
